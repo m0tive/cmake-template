@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/m0tive/cmake-template.svg?branch=master)](https://travis-ci.org/m0tive/cmake-template)
+
 ## Build Setup
 
 ``` bash
@@ -10,5 +12,3 @@ cmake --build .
 # run the tests
 ctest -VV
 ```
-Tested on Windows 10 with Visual Studio 2017 community edition.
-
