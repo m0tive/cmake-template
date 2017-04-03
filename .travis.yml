@@ -3,6 +3,10 @@ sudo: required
 
 language: c++
 
+compiler:
+  - clang
+  - gcc
+
 addons:
     apt:
         sources:
