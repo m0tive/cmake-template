@@ -1,0 +1,14 @@
+dist: trusty
+sudo: required
+
+language: c++
+
+addons:
+    apt:
+        packages:
+            - cmake
+
+script:
+    - cmake .
+    - cmake --build .
+    - ctest -VV
