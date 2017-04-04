@@ -1,0 +1,8 @@
+before_build:
+  - cmake .
+
+build_script:
+  - cmake --build .
+
+test_script:
+  - ctest -VV
