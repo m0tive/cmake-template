@@ -3,13 +3,12 @@ sudo: required
 
 language: c++
 
-os:
-  - linux
-  - osx
-
-compiler:
-  - clang
-  - gcc
+matrix:
+    include:
+        - os: linux
+          compiler: gcc
+        - os: osx
+          compiler: clang
 
 addons:
     apt:
